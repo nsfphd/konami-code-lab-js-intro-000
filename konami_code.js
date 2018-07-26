@@ -11,7 +11,7 @@ const codes = [
   "a"
 ];
 
-function init() {
+window.onload = function init() {
 
 //  const alphabet = ['a', 'b', 'c'];
 
