@@ -19,23 +19,20 @@ function init() {
 let index = 0;
 
 
-document.body.addEventListener('keydown', function(onKeyDownHandler(e)))
+document.body.addEventListener('keydown', (e))
 
-// This is the function that would be invoked by the event listener.
-function onKeyDownHandler(e) {
-  const key = e.key;
+ const key = e.key;
 
   if (key === codes[index]) {
     index++;
 
     if (index === codes.length) {
-      alert("Hurray!");
+      window.alert("Hurray!");
 
       index = 0;
     }
   } else {
     index = 0;
   }
-}
-  // your code here
+
 }
