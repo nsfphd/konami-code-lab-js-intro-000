@@ -11,7 +11,7 @@ const codes = [
   "a"
 ];
 
-window.onload = function init() {
+function init() {
 
 //  const alphabet = ['a', 'b', 'c'];
 
@@ -19,7 +19,7 @@ window.onload = function init() {
 let index = 0;
 
 
-body.addEventListener('keydown', function(onKeyDownHandler(e)))
+document.body.addEventListener('keydown', function(onKeyDownHandler(e)))
 
 // This is the function that would be invoked by the event listener.
 function onKeyDownHandler(e) {
