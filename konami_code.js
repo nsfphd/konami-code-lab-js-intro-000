@@ -19,7 +19,7 @@ function init() {
 let index = 0;
 
 
-document.body.addEventListener('keydown', (e))
+document.body.addEventListener('keydown', (e) => {
 
  const key = e.key;
 
@@ -34,5 +34,5 @@ document.body.addEventListener('keydown', (e))
   } else {
     index = 0;
   }
-
+});
 }
