@@ -18,8 +18,8 @@ function init() {
 // Keep track of index outside of the event handler.
 let index = 0;
 
-var cuerpo = document.getElementsByTagName('body')
-cuerpo.addEventListener('keydown', function(onKeyDownHandler(e)))
+
+body.addEventListener('keydown', function(onKeyDownHandler(e)))
 
 // This is the function that would be invoked by the event listener.
 function onKeyDownHandler(e) {
