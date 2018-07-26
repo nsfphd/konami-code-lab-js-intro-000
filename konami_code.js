@@ -19,7 +19,7 @@ function init() {
 let index = 0;
 
 var cuerpo = document.body.getElementsByClassName('body')
-cuerpo.addEventListener('keyDown', function(onKeyDownHandler(), alert("Yes")))
+cuerpo.addEventListener('keydown', function(onKeyDownHandler, alert("Yes")))
 
 // This is the function that would be invoked by the event listener.
 function onKeyDownHandler(e) {
